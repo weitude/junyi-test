@@ -31,13 +31,13 @@ import unittest
 
 class TestReverseString(unittest.TestCase):
     def test_question_a(self):
-        self.assertEqual(reverse_string('hello'), 'olleh')
+        self.assertEqual(reverse_string('junyiacademy'), 'ymedacaiynuj')
         self.assertEqual(reverse_string('123456789'), '987654321')
         self.assertEqual(reverse_string(''), '')
         self.assertEqual(reverse_string('a'), 'a')
-        self.assertEqual(reverse_string('racecar'), 'racecar')
 
     def test_question_b(self):
+        self.assertEqual(reverse_every_vocab('flipped classroom is important'), 'deppilf moorssalc si tnatropmi')
         self.assertEqual(reverse_every_vocab('junyi is wonderful'), 'iynuj si lufrednow')
         self.assertEqual(reverse_every_vocab('a b c'), 'a b c')
         self.assertEqual(reverse_every_vocab(''), '')
